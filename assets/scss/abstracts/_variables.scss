@@ -1,0 +1,87 @@
+:root {
+  // =========== START:: THEME COLORS ===========
+  --main: #161521;
+  --anti_main: #fff;
+
+  --body_bg: #fff;
+  --main_bg: #fff;
+  --input_bg: #ffffff;
+
+  --cat_bg: #f9fafb;
+  --cat_bg_hover: #d6dce2;
+
+  --placholder: #aaaaaa;
+  --border: #e6e6e6;
+  --main_shadow: #e1e1e14f;
+  --para: #909eac;
+  --gray_color: #a7a7a7;
+  --overlay_color: #33333380;
+
+  --filter_bg: #f9fafb;
+  --filter_active_bg: #ebebeb;
+  --filter_active_bg-hover: #d7d7d7;
+
+  &.darkTheme {
+    --main: #fff;
+    --anti_main: #161521;
+
+    --body_bg: #181818;
+    --main_bg: #1d1f22;
+    --input_bg: #333;
+
+    --cat_bg: #1d1f22;
+    --cat_bg_hover: #222528;
+
+    --placholder: #aaaaaa;
+    --border: #39383882;
+    --main_shadow: #012c2370;
+    --para: #fff;
+    --gray_color: #a7a7a7;
+    --overlay_color: #33333380;
+
+    --filter_bg: #252525;
+    --filter_active_bg: #373737;
+    --filter_active_bg-hover: #575757;
+  }
+
+  // ============= Fixed
+  --app_color: #339989;
+  --app_color_hover: #0e695c;
+
+  // @media (prefers-color-scheme: dark) {
+  //   --main: #fff;
+  //   --anti_main: #161521;
+
+  //   --body_bg: #181818;
+  //   --main_bg: #1d1f22;
+  //   --input_bg: #333;
+
+  //   --cat_bg: #1d1f22;
+  //   --cat_bg_hover: #222528;
+
+  //   --placholder: #aaaaaa;
+  //   --border: #39383882;
+  //   --main_shadow: #14141440;
+  //   --para: #fff;
+  //   --gray_color: #a7a7a7;
+  //   --overlay_color: #3333332c;
+
+  //   --filter_bg: #252525;
+  //   --filter_active_bg: #373737;
+  //   --filter_active_bg-hover: #575757;
+  // }
+  // =========== END:: THEME COLORS ===========
+
+  // =========== START:: BRANDS COLORS ===========
+  --facebook: #4267b2;
+  --twitter: #1da1f2;
+  --whatsApp: #25d366;
+  --telegram: #0088cc;
+  --linkedin: #2867b2;
+  --youtube: #ff0000;
+  --instagram: #e4405f;
+  --tiktok: #ee1d51;
+  --andriod: #78c249;
+  --apple: #666666;
+  // =========== END:: BRANDS COLORS ===========
+}

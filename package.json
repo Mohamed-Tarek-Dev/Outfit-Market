@@ -1,0 +1,45 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^0.6.7",
+    "@nuxt/image": "^1.0.0-rc.1",
+    "@types/node": "^18",
+    "@vueuse/core": "^10.3.0",
+    "@vueuse/nuxt": "^10.3.0",
+    "nuxt": "^3.4.2",
+    "nuxt-icon": "^0.5.0",
+    "nuxt-purgecss": "^2.0.0",
+    "vite-plugin-vuetify": "^1.0.2"
+  },
+  "overrides": {
+    "vue": "latest"
+  },
+  "dependencies": {
+    "@fontsource/dm-serif-display": "^5.0.3",
+    "@fontsource/koho": "^4.5.11",
+    "@googlemaps/js-api-loader": "^1.16.2",
+    "@mdi/font": "^7.2.96",
+    "@pinia/nuxt": "^0.4.9",
+    "@vuepic/vue-datepicker": "^5.2.1",
+    "aos": "^2.3.4",
+    "encrypt-storage": "^2.12.16",
+    "firebase": "^10.1.0",
+    "izitoast": "^1.4.0",
+    "pinia": "^2.0.35",
+    "sass": "^1.62.1",
+    "sweetalert": "^2.1.2",
+    "swiper": "^10.2.0",
+    "vue-i18n": "^9.0.0",
+    "vue-image-zoomer": "^2.2.3",
+    "vue-rate": "^3.1.1",
+    "vuetify": "^3.3.1"
+  }
+}

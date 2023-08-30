@@ -1,0 +1,31 @@
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+// ======================== base
+@import "base/glopal";
+@import "base/animations";
+@import "base/typography";
+
+// ======================== components
+// *** Charts
+@import "./components/Charts/charts";
+
+// *** Forms
+@import "./components/Forms/form";
+
+// *** Globals
+@import "./components/Global/chatCom";
+@import "./components/Global/slickSlider";
+@import "./components/Global/custom_card";
+@import "./components/Global/scrollbar";
+
+// *** Tables
+@import "./components/Tables/dialog";
+@import "./components/Tables/tables";
+
+// ======================== Pages
+@import "./pages/authentication";
+@import "./pages/homePage";
+
+// ======================== rtl
+@import "mainRtl.scss";

@@ -1,0 +1,155 @@
+// .table_wrraper {
+//   width: 95%;
+//   margin: 50px auto;
+
+//   .v-data-table {
+//     margin-bottom: 10px;
+
+//     // ===== Head
+//     thead {
+//       background: var(--main);
+
+//       tr {
+//         th {
+//           font-size: 16px !important;
+//           color: #fff !important;
+
+//           i.v-icon {
+//             &::before {
+//               color: #fff !important;
+//             }
+//           }
+//         }
+//       }
+//     }
+
+//     // ===== Body
+//     tbody {
+//       tr {
+//         td {
+//           ._actions {
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+
+//             .v-icon {
+//               margin: 7px !important;
+//               font-size: 16px !important;
+//               width: fit-content !important;
+//               padding: 3px;
+
+//               &.show {
+//                 color: #333;
+//               }
+//               &.edit {
+//                 color: #ff9800;
+//               }
+//               &.delete {
+//                 color: crimson;
+//               }
+//             }
+//           }
+
+//           img.image {
+//             max-height: 150px !important;
+//             max-width: 150px !important;
+//             display: block;
+//             margin: 0 auto;
+//             object-fit: cover;
+//             border-radius: 10px;
+//           }
+
+//           .v-data-table__checkbox {
+//             width: fit-content !important;
+//             margin: 0 auto !important;
+//           }
+//         }
+//       }
+//     }
+
+//     // ============= Types
+//     &.seperate {
+//       thead,
+//       tbody,
+//       tfoot,
+//       tr,
+//       td,
+//       th {
+//         border: none !important;
+//       }
+
+//       table {
+//         @media (min-width: 500px) {
+//           border-collapse: separate !important;
+//           border-spacing: 0 2rem !important;
+//         }
+
+//         tbody {
+//           tr {
+//             cursor: pointer;
+//             box-shadow: rgb(0 0 0 / 5%) 0 4px 20px 0;
+//             transition: all 0.3s ease;
+//             border-radius: 0.5rem;
+
+//             td {
+//               padding: 10px 1rem !important;
+//               vertical-align: middle !important;
+//             }
+
+//             @media (min-width: 500px) {
+//               &:hover {
+//                 transform: translateY(-1rem);
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//     &.strip {
+//       .v-data-table__wrapper {
+//         thead {
+//           background-color: var(--main) !important;
+
+//           th {
+//             span {
+//               color: #fff;
+//             }
+
+//             i {
+//               color: #fff !important;
+//             }
+//           }
+//         }
+
+//         table {
+//           tr:nth-child(even) {
+//             background: var(--mainBg) !important;
+//           }
+//         }
+//       }
+//     }
+//     &.thumb {
+//       .v-data-table__wrapper {
+//         table {
+//           tbody {
+//             tr {
+//               td {
+//                 padding: 10px;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+
+//   .pagination_container {
+//     .v-pagination__item.v-pagination__item--active {
+//       background-color: var(--main) !important;
+//     }
+//   }
+// }
+
+// // ================ Dark Mood
+// html.darkTheme {
+// }
